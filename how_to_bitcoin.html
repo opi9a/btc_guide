@@ -3,27 +3,33 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 	<title></title>
-	<meta name="generator" content="LibreOffice 6.0.7.3 (Linux)"/>
-	<meta name="created" content="2020-12-13T14:19:18.555993376"/>
-	<meta name="changed" content="2020-12-13T15:55:12.978609503"/>
+	<meta name="generator" content="LibreOffice 7.0.4.2 (Linux)"/>
+	<meta name="created" content="2020-11-17T11:28:07.259191592"/>
+	<meta name="changed" content="2021-03-05T18:49:54.909855575"/>
 	<style type="text/css">
-		p.cjk { font-size: 10pt }
-		p.hanging-indent-western { margin-left: 1cm; text-indent: -0.5cm }
-		p.hanging-indent-cjk { margin-left: 1cm; text-indent: -0.5cm; font-size: 10pt }
-		p.hanging-indent-ctl { margin-left: 1cm; text-indent: -0.5cm }
-		p.bullet-list-western { margin-left: 0.9cm; text-indent: -0.32cm; margin-top: 0.3cm; margin-bottom: 0cm; font-family: "DejaVu Sans", sans-serif; line-height: 100% }
-		p.bullet-list-cjk { margin-left: 0.9cm; text-indent: -0.32cm; margin-top: 0.3cm; margin-bottom: 0cm; font-size: 10pt; line-height: 100% }
-		p.bullet-list-ctl { margin-left: 0.9cm; text-indent: -0.32cm; margin-top: 0.3cm; margin-bottom: 0cm; line-height: 100% }
-		h2.western { font-family: "DejaVu Sans", sans-serif }
-		h2.cjk { font-family: "Noto Sans CJK SC" }
-		h2.ctl { font-family: "Lohit Devanagari" }
+		@page { size: 21cm 29.7cm; margin: 2cm }
+		p { margin-bottom: 0.25cm; line-height: 150%; text-align: justify; background: transparent; page-break-before: auto }
+		p.western { font-family: "DejaVu Sans", sans-serif }
+		h1 { background: transparent; page-break-after: avoid }
+		h1.western { font-family: "DejaVu Sans", sans-serif; font-size: 24pt; font-weight: bold }
+		h1.cjk { font-size: 22pt; font-weight: bold }
+		h1.ctl { font-size: 22pt; font-weight: bold }
+		h1:first-letter { float: left; font-size: 0% }
+		h2 { margin-top: 0.35cm; margin-bottom: 0.21cm; background: transparent; page-break-after: avoid }
+		h2.western { font-family: "DejaVu Sans", sans-serif; font-size: 18pt; font-weight: bold }
+		h2.cjk { font-family: "Noto Sans CJK SC"; font-size: 18pt; font-weight: bold }
+		h2.ctl { font-family: "Lohit Devanagari"; font-size: 18pt; font-weight: bold }
+		blockquote { margin-left: 1cm; margin-right: 1cm; background: transparent }
+		p.bullet-list { margin-left: 0.9cm; text-indent: -0.32cm; margin-top: 0.3cm; margin-bottom: 0cm; line-height: 100% }
+		p.hanging-indent { margin-left: 1cm; text-indent: -0.5cm }
+		a:link { color: #000080; so-language: zxx; text-decoration: underline }
+		a:visited { color: #800000; so-language: zxx; text-decoration: underline }
 	</style>
 </head>
-<body lang="en-GB" dir="ltr">
-<p align="center" style="margin-top: 0.42cm; page-break-after: avoid">
+<body lang="en-GB" link="#000080" vlink="#800000" dir="ltr"><p align="center" style="margin-top: 0.42cm; margin-bottom: 0.5cm; line-height: 100%; page-break-after: avoid">
 <font face="Albany, sans-serif"><font size="6" style="font-size: 28pt"><b>How
 To Bitcoin</b></font></font></p>
-<h1>Introduction</h1>
+<h1 class="western">Introduction</h1>
 <p class="western">This guide is aimed at people taking their first
 steps in managing bitcoin in a wallet that they control themselves. 
 It is a general explanation of relevant aspects of how bitcoin works
@@ -33,13 +39,12 @@ Electrum, Samourai, Mycelium or GreenWallet.
 </p>
 <p class="western">Different wallets may have their own ways of doing
 things in the user interface – for example using PINs to unlock
-devices etc. But under the hood they will all be doing pretty much
-what is described here.</p>
+devices. But under the hood they will all be doing pretty much what
+is described here.</p>
 <p class="western"><b>It is important to recognize that in taking
-this step of controlling your own bitcoin, you are personally
-responsible for anything that happens. If you make a mistake there is
-ultimately no recourse or compensation – you can lose all your
-funds and plenty have.</b></p>
+this step, you are personally responsible for anything that happens.
+If you make a mistake there is ultimately no recourse or compensation
+– you can lose all your funds and plenty have.</b></p>
 <p class="western">That’s a good reason to take things cautiously.
 Read and consider this guide. Look for other information on the
 internet – but always be sceptical, there are many scammers out
@@ -51,71 +56,73 @@ and learning everyone can take full responsibility and control over
 their own wealth. That’s why we bitcoin!!</p>
 <p class="western">This guide aims to explain:</p>
 <ul>
-	<li/>
-<p class="hanging-indent-western">how your wallet allows you
-	to receive and send bitcoins, so you can have more confidence in
-	using it.</p>
-	<li/>
-<p class="hanging-indent-western">how you can make and
-	securely store backups of your wallet using the all-important seed
-	words, so that you are not at risk of losing bitcoin.</p>
+	<li><p class="hanging-indent">how your wallet allows you to receive
+	and send bitcoins, so you can have more confidence in using it.</p>
+	<li><p class="hanging-indent">how you can make and securely store
+	backups of your wallet using the all-important seed words, so that
+	you are not at risk of losing bitcoin.</p>
 </ul>
-<h1>The bitcoin system is a database of transactions from one address
-to another</h1>
-<p class="western">The bitcoin system is fundamentally quite simple. 
-It consists of a public ledger or database of transactions – a copy
-of which is kept on thousands of computers around the world.  This
-ledger is known as the &quot;blockchain&quot; because transactions
-are grouped into blocks when they are validated and added to it.</p>
-<p class="western">You can see the bitcoin blockchain for yourself on
-a “block explorer” like <a href="https://www.smartbit.com.au/">this</a>.
+<p class="western"><br/>
+<br/>
+
 </p>
-<p class="western">Each transaction contains:</p>
-<ul>
-	<li/>
-<p class="western">a FROM address (eg an address that I
-	control)</p>
-	<li/>
-<p class="western">a TO address (eg an address that you
-	control)</p>
-	<li/>
-<p class="western">an AMOUNT (eg 3 bitcoins)</p>
-	<li/>
-<p class="western">a SIGNATURE which validates that I want to
-	make the transaction.  
-	</p>
-</ul>
-<p class="western">The above transaction, when added to the ledger,
-would have the effect of transferring 3 bitcoins from me to you. 
+<h1 class="western">Bitcoin is all about transactions</h1>
+<p class="western">The bitcoin system consists of a public ledger or
+database of transactions.  This ledger is known as the &quot;blockchain&quot;
+because transactions are grouped into blocks when they are validated
+and added to it.  You can see the bitcoin blockchain for yourself on
+a “block explorer” like <a href="https://www.smartbit.com.au/">this</a>.</p>
+<p class="western">Bitcoins exist as amounts sent in transactions. 
 </p>
-<h1>Addresses define who owns bitcoins</h1>
-<p class="western">The example transaction above has two addresses:</p>
-<ul>
-	<li/>
-<p class="western">my address, which is where the bitcoins are
-	being sent FROM;</p>
-	<li/>
-<p class="western">and your address, which is where the
-	bitcoins are being sent TO</p>
-</ul>
-<p class="western">Bitcoin addresses are a long-ish string of letters
-and digits (which actually just represent a very large number).  An
-example of a bitcoin address is:</p>
+<p class="western">For example, every new block that is added to the
+blockchain creates new bitcoins (currently 6.25), and it does this
+with a transaction sending 6.25 btc (from nowhere!) to whoever
+created the block. The recipient of that transaction now owns those
+6.25 bitcoin.</p>
+<p class="western">Subsequent transactions refer back to previous
+transactions. For example if the recipient of the 6.25 bitcoin above
+wanted to send 3 bitcoin to someone else, their wallet would make a
+new transaction referring to the one in which they received the 6.25
+bitcoin.</p>
+<p class="western">So <u>owning bitcoin means being a recipient of
+bitcoin transactions</u>.  The next section explains how your wallet
+allows you to receive transactions by generating “addresses” to
+which bitcoin can be sent.</p>
+<p class="western">And <u>spending bitcoin means creating bitcoin
+transactions that are sent to someone else</u>.  As explained below,
+your wallet does this too, by using “private keys” to digitally
+sign outbound transactions.</p>
+<h1 class="western">Addresses define the recipients of transactions</h1>
+<p class="western">A transaction needs something to define where (or
+who) it's going to. Just like a cheque needs a recipient name, or a
+bank transfer needs a destination account.  In bitcoin this is
+defined by an &quot;address&quot; - a long-ish string of letters and
+digits (which actually just represent a very large number). 
+</p>
+<p class="western">An example of a bitcoin address is:</p>
 <blockquote><font face="DejaVu Sans Mono, monospace">3QjKms5ox5Df6poH7s1bBzrVKaMkvoHyGV</font></blockquote>
-<p class="western">Your wallet software will allow you to generate
-receiving addresses like the one above.  Bitcoin sent to one of these
-addresses will be received by your wallet, and you will then have
-control of them.</p>
+<p class="western">All bitcoin transactions have a receiving address.
+ Your wallet software will allow you to generate receiving addresses
+like the one above that you can give to people who are sending you
+bitcoin. 
+</p>
 <p class="western">For example, when withdrawing from an exchange you
 will probably paste an address from your wallet into the exchange's
 web page or app.  Bitcoin sent to that address will show up in your
 wallet.</p>
-<p class="western">An address is similar to a bank account number, in
-that it defines who owns the bitcoin.  However unlike a bank account
-number, you normally use a different address for each transaction you
-receive.</p>
-<h1>Each address has a secret “private key” which is needed to
-sign transactions and send bitcoin</h1>
+<p class="western">Similar to a bank account number, the address
+defines who owns the bitcoin,  but you need more than just the number
+to control the funds.  Unlike a bank account number, you normally use
+a different address for each transaction you receive.</p>
+<p class="western">One of the main ways bitcoin has been stolen from
+people is with malware which <font face="DejaVu Sans, sans-serif">compromises</font>
+your clipboard when pasting addresses – so that you end up sending
+bitcoin to the hacker.  So it is extremely important to <b>always
+double check all addresses that you use</b><span style="font-weight: normal">.
+ Hardware wallets will allow you to do this on the device itself, so
+you can be sure that no malware is interfering.</span></p>
+<h1 class="western">Private keys are used to sign transactions and
+send bitcoin</h1>
 <p class="western">When bitcoin is moved in a transaction, there
 needs to be some way of verifying that this is the intention of the
 owner. Otherwise everyone could steal everyone else's bitcoin by just
@@ -128,10 +135,10 @@ transaction. All bitcoin transactions are public, and its important
 that they can be validated by everybody - so a simple signature or
 password would just be copied and used to steal all the rest of your
 bitcoin.</p>
-<p class="western">Instead a system is used where each address is
-associated with a secret &quot;private key&quot; which can be used to
-generate a unique digital signature when a transaction is made using
-bitcoin from that address. 
+<p class="western">Instead a system is used where each receiving
+address is associated with a secret &quot;private key&quot; which can
+be used to generate a unique digital signature when a transaction is
+made using bitcoin from that address. 
 </p>
 <p class="western">Everyone can check the signature is valid, and
 could only be generated using the private key associated with the
@@ -139,14 +146,14 @@ address - but nobody can actually work out what the private key is,
 or use the signature to do anything malicious.  This cryptomagic is
 used for basically all internet security – it’s known as “public
 key cryptography”.</p>
-<p class="western"><u>Private keys are very sensitive</u>.  If anyone
+<p class="western"><u>Private keys are very sensitive</u>. If anyone
 has access to the private key associated with an address in your
 wallet then they can steal any bitcoin associated with that address.</p>
 <p class="western">Hardware wallets like Trezor are designed to
 generate and store private keys and use them to sign transactions in
 a very secure way. You will never normally see a private key (though
 they are also just large numbers represented by letters and digits).</p>
-<h1>Seed Words</h1>
+<h1 class="western">Seed Words</h1>
 <p class="western">If your wallet has received 5 transactions, this
 means that each of 5 addresses in the wallet will be associated with
 some quantity of bitcoin - and there will be 5 corresponding private
@@ -188,7 +195,7 @@ addresses and private keys you ever used.
 doing this, and the math used is all published, so a wallet can be
 recovered even if the particular software or device you used
 originally no longer exists.</p>
-<h1>Storing seed words</h1>
+<h1 class="western">Storing seed words</h1>
 <p class="western">As a user of a hardware wallet - or any wallet
 with significant funds - the most important task by far is looking
 after your seed words. 
@@ -203,11 +210,11 @@ do something completely different.  All at your own risk, of course!</p>
 <p class="western">First it's worth noting that there are two types
 of threat to worry about: 
 </p>
-<p class="bullet-list-western">- the risk of LOSS of your seed words,
-so that you cannot recover your funds;</p>
-<p class="bullet-list-western">- the risk of THEFT of your seed
-words, so that someone else recovers and steals your funds.</p>
-<p class="bullet-list-western"><br/>
+<p class="bullet-list">- the risk of LOSS of your seed words, so that
+you cannot recover your funds;</p>
+<p class="bullet-list">- the risk of THEFT of your seed words, so
+that someone else recovers and steals your funds.</p>
+<p class="bullet-list"><br/>
 
 </p>
 <p class="western">These threats are usually in opposition, in the
