@@ -5,37 +5,37 @@
 	<title></title>
 	<meta name="generator" content="LibreOffice 7.0.4.2 (Linux)"/>
 	<meta name="created" content="2020-11-17T11:28:07.259191592"/>
-	<meta name="changed" content="2021-03-05T18:56:28.177227060"/>
+	<meta name="changed" content="2021-03-05T18:58:31.282948928"/>
 	<style type="text/css">
-		@page { size: 21cm 29.7cm; margin: 2cm }
-		p { margin-bottom: 0.25cm; line-height: 150%; text-align: justify; background: transparent; page-break-before: auto }
+		@page { margin: 2cm }
+		h1 { margin-left: 0.31cm; background: transparent }
+		h1.western { font-family: "DejaVu Sans", sans-serif }
+		p { margin-bottom: 0.25cm; background: transparent; line-height: 150%; text-align: justify; page-break-before: auto; page-break-after: auto }
 		p.western { font-family: "DejaVu Sans", sans-serif }
-		h1 { margin-left: 0.11cm; background: transparent; page-break-after: avoid }
-		h1.western { font-family: "DejaVu Sans", sans-serif; font-size: 24pt; font-weight: bold }
-		h1.cjk { font-size: 22pt; font-weight: bold }
-		h1.ctl { font-size: 22pt; font-weight: bold }
-		h1:first-letter { float: left; font-size: 0% }
-		h2 { margin-top: 0.35cm; margin-bottom: 0.21cm; background: transparent; page-break-after: avoid }
-		h2.western { font-family: "DejaVu Sans", sans-serif; font-size: 18pt; font-weight: bold }
-		h2.cjk { font-family: "Noto Sans CJK SC"; font-size: 18pt; font-weight: bold }
-		h2.ctl { font-family: "Lohit Devanagari"; font-size: 18pt; font-weight: bold }
-		blockquote { margin-left: 1cm; margin-right: 1cm; background: transparent }
-		p.bullet-list { margin-left: 0.9cm; text-indent: -0.32cm; margin-top: 0.3cm; margin-bottom: 0cm; line-height: 100% }
-		p.hanging-indent { margin-left: 1cm; text-indent: -0.5cm }
-		a:link { color: #000080; so-language: zxx; text-decoration: underline }
-		a:visited { color: #800000; so-language: zxx; text-decoration: underline }
+		h2 { margin-top: 0.35cm; margin-bottom: 0.21cm; background: transparent }
+		h2.western { font-family: "DejaVu Sans", sans-serif }
+		h2.cjk { font-family: "Noto Sans CJK SC" }
+		h2.ctl { font-family: "Lohit Devanagari" }
+		blockquote { background: transparent }
+		p.bullet-list-western { margin-left: 0.9cm; text-indent: -0.32cm; margin-top: 0.3cm; margin-bottom: 0cm; font-family: "DejaVu Sans", sans-serif; line-height: 100% }
+		p.bullet-list-cjk { margin-left: 0.9cm; text-indent: -0.32cm; margin-top: 0.3cm; margin-bottom: 0cm; line-height: 100% }
+		p.bullet-list-ctl { margin-left: 0.9cm; text-indent: -0.32cm; margin-top: 0.3cm; margin-bottom: 0cm; line-height: 100% }
+		p.hanging-indent-western { margin-left: 1cm; text-indent: -0.5cm; font-family: "DejaVu Sans", sans-serif }
+		p.hanging-indent-cjk { margin-left: 1cm; text-indent: -0.5cm }
+		p.hanging-indent-ctl { margin-left: 1cm; text-indent: -0.5cm }
+		a:link { so-language: zxx }
 	</style>
 </head>
-<body lang="en-GB" link="#000080" vlink="#800000" dir="ltr"><p align="center" style="margin-top: 0.42cm; margin-bottom: 0.5cm; line-height: 100%; page-break-after: avoid">
+<body lang="en-GB" dir="ltr"><p class="western" align="center" style="margin-top: 0.42cm; margin-bottom: 0.5cm; line-height: 100%; page-break-after: avoid">
 <font face="Albany, sans-serif"><font size="6" style="font-size: 28pt"><b>How
 To Bitcoin</b></font></font></p>
 <h1 class="western">Introduction</h1>
 <p class="western">This guide is aimed at people taking their first
-steps in managing bitcoin in a wallet that they control themselves. 
+steps in managing bitcoin in a wallet that they control themselves.
 It is a general explanation of relevant aspects of how bitcoin works
 that applies to all wallets – including hardware devices such as
 Trezor and Coldcard, as well as software-only wallets such as
-Electrum, Samourai, Mycelium or GreenWallet.  
+Electrum, Samourai, Mycelium or GreenWallet. 
 </p>
 <p class="western">Different wallets may have their own ways of doing
 things in the user interface – for example using PINs to unlock
@@ -56,11 +56,12 @@ and learning everyone can take full responsibility and control over
 their own wealth. That’s why we bitcoin!!</p>
 <p class="western">This guide aims to explain:</p>
 <ul>
-	<li><p class="hanging-indent">how your wallet allows you to receive
-	and send bitcoins, so you can have more confidence in using it.</p>
-	<li><p class="hanging-indent">how you can make and securely store
-	backups of your wallet using the all-important seed words, so that
-	you are not at risk of losing bitcoin.</p>
+	<li><p class="hanging-indent-western">how your wallet allows you to
+	receive and send bitcoins, so you can have more confidence in using
+	it.</p>
+	<li><p class="hanging-indent-western">how you can make and securely
+	store backups of your wallet using the all-important seed words, so
+	that you are not at risk of losing bitcoin.</p>
 </ul>
 <p class="western"><br/>
 <br/>
@@ -68,10 +69,10 @@ their own wealth. That’s why we bitcoin!!</p>
 </p>
 <h1 class="western">Bitcoin is all about transactions</h1>
 <p class="western">The bitcoin system consists of a public ledger or
-database of transactions.  This ledger is known as the &quot;blockchain&quot;
+database of transactions. This ledger is known as the &quot;blockchain&quot;
 because transactions are grouped into blocks when they are validated
-and added to it.  You can see the bitcoin blockchain for yourself on
-a “block explorer” like <a href="https://www.smartbit.com.au/">this</a>.</p>
+and added to it. You can see the bitcoin blockchain for yourself on a
+“block explorer” like <a href="https://www.smartbit.com.au/">this</a>.</p>
 <p class="western">Bitcoins exist as amounts sent in transactions. 
 </p>
 <p class="western">For example, every new block that is added to the
@@ -85,41 +86,41 @@ w&shy;anted to send 3 bitcoin to someone else, their wallet would
 make a new transaction referring to the one in which they received
 the 6.25 bitcoin.</p>
 <p class="western">So <u>owning bitcoin means being a recipient of
-bitcoin transactions</u>.  The next section explains how your wallet
+bitcoin transactions</u>. The next section explains how your wallet
 allows you to receive transactions by generating “addresses” to
 which bitcoin can be sent.</p>
 <p class="western">And <u>spending bitcoin means creating bitcoin
-transactions that are sent to someone else</u>.  As explained below,
+transactions that are sent to someone else</u>. As explained below,
 your wallet does this too, by using “private keys” to digitally
 sign outbound transactions.</p>
 <h1 class="western">Addresses define the recipients of transactions</h1>
 <p class="western">A transaction needs something to define where (or
 who) it's going to. Just like a cheque needs a recipient name, or a
-bank transfer needs a destination account.  In bitcoin this is
-defined by an &quot;address&quot; - a long-ish string of letters and
-digits (which actually just represent a very large number). 
+bank transfer needs a destination account. In bitcoin this is defined
+by an &quot;address&quot; - a long-ish string of letters and digits
+(which actually just represent a very large number). 
 </p>
 <p class="western">An example of a bitcoin address is:</p>
 <blockquote><font face="DejaVu Sans Mono, monospace">3QjKms5ox5Df6poH7s1bBzrVKaMkvoHyGV</font></blockquote>
 <p class="western">All bitcoin transactions have a receiving address.
- Your wallet software will allow you to generate receiving addresses
+Your wallet software will allow you to generate receiving addresses
 like the one above that you can give to people who are sending you
 bitcoin. 
 </p>
 <p class="western">For example, when withdrawing from an exchange you
 will probably paste an address from your wallet into the exchange's
-web page or app.  Bitcoin sent to that address will show up in your
+web page or app. Bitcoin sent to that address will show up in your
 wallet.</p>
 <p class="western">Similar to a bank account number, the address
-defines who owns the bitcoin,  but you need more than just the number
-to control the funds.  Unlike a bank account number, you normally use
+defines who owns the bitcoin, but you need more than just the number
+to control the funds. Unlike a bank account number, you normally use
 a different address for each transaction you receive.</p>
 <p class="western">One of the main ways bitcoin has been stolen from
 people is with malware which <font face="DejaVu Sans, sans-serif">compromises</font>
 your clipboard when pasting addresses – so that you end up sending
-bitcoin to the hacker.  So it is extremely important to <b>always
+bitcoin to the hacker. So it is extremely important to <b>always
 double check all addresses that you use</b><span style="font-weight: normal">.
- Hardware wallets will allow you to do this on the device itself, so
+Hardware wallets will allow you to do this on the device itself, so
 you can be sure that no malware is interfering.</span></p>
 <h1 class="western">Private keys are used to sign transactions and
 send bitcoin</h1>
@@ -128,7 +129,7 @@ needs to be some way of verifying that this is the intention of the
 owner. Otherwise everyone could steal everyone else's bitcoin by just
 making transactions sending it to themselves.</p>
 <p class="western">Bitcoin transactions are verified by a <u>digital
-signature</u>.  This is similar to the signature on a cheque, or a
+signature</u>. This is similar to the signature on a cheque, or a
 password on a banking app - but a bit more complicated because you
 can't just add your signature or password to each bitcoin
 transaction. All bitcoin transactions are public, and its important
@@ -143,7 +144,7 @@ made using bitcoin from that address.
 <p class="western">Everyone can check the signature is valid, and
 could only be generated using the private key associated with the
 address - but nobody can actually work out what the private key is,
-or use the signature to do anything malicious.  This cryptomagic is
+or use the signature to do anything malicious. This cryptomagic is
 used for basically all internet security – it’s known as “public
 key cryptography”.</p>
 <p class="western"><u>Private keys are very sensitive</u>. If anyone
@@ -165,7 +166,7 @@ keys, and that's all there was to it.
 </p>
 <p class="western">There's nothing wrong with this in principle, but
 it leads to some practical difficulties which actually pose big
-security problems.  For example if you want to make a back-up of your
+security problems. For example if you want to make a back-up of your
 wallet (in case the computer it's stored on breaks) then you have to
 copy the whole thing - all the addresses and private keys. You can
 only really do this with a computer - as there is so much
@@ -189,7 +190,7 @@ bitcoin.</p>
 addresses and keys are generated from the seed words is completely
 reproducible. That means that all you need is the seed words, and you
 can always use those to reproduce your whole wallet – all the
-addresses and private keys you ever used.  
+addresses and private keys you ever used. 
 </p>
 <p class="western">Most wallet programs use the same convention for
 doing this, and the math used is all published, so a wallet can be
@@ -206,15 +207,18 @@ circumstances and preferences - and making these decisions is an
 important part of taking control for yourself. But this section
 explains some approaches that could be used in building a security
 strategy. You can use them in whatever combination you decide – or
-do something completely different.  All at your own risk, of course!</p>
+do something completely different. All at your own risk, of course!</p>
 <p class="western">First it's worth noting that there are two types
 of threat to worry about: 
 </p>
-<p class="bullet-list">- the risk of LOSS of your seed words, so that
-you cannot recover your funds;</p>
-<p class="bullet-list">- the risk of THEFT of your seed words, so
-that someone else recovers and steals your funds.</p>
-<p class="bullet-list"><br/>
+<p class="bullet-list-western" style="margin-bottom: 0.5cm">- the
+risk of LOSS of your seed words, so that you cannot recover your
+funds;</p>
+<p class="bullet-list-western" style="margin-bottom: 0.5cm">- the
+risk of THEFT of your seed words, so that someone else recovers and
+steals your funds.</p>
+<p class="bullet-list-western" style="margin-bottom: 0.5cm"><br/>
+<br/>
 
 </p>
 <p class="western">These threats are usually in opposition, in the
@@ -223,44 +227,43 @@ multiple copies) will often increase the risk of theft – and vice
 versa. 
 </p>
 <p class="western">It’s worth taking time to mull all this over,
-and not act in a rush.  <b>A</b><b>n important</b><b> general rule is
-to </b><span style="text-decoration: none"><b>err on the side of
-simplicity</b></span><span style="text-decoration: none"><span style="font-weight: normal">.</span></span>
- Of the two threats above, loss of funds because you fuck something
-up is much more probable than theft.  And do not underestimate how
-easy it is to forget what you have done – so either keep it simple
-or make sure you have documented your strategy well (and take care to
+and not act in a rush. <b>An important</b> <b>general rule is to </b><span style="text-decoration: none"><b>err
+on the side of simplicity</b></span><span style="text-decoration: none"><span style="font-weight: normal">.</span></span>
+Of the two threats above, loss of funds because you fuck something up
+is much more probable than theft. And do not underestimate how easy
+it is to forget what you have done – so either keep it simple or
+make sure you have documented your strategy well (and take care to
 keep the documentation safe too!).</p>
 <p class="western">Finally it’s good security practice not to tell
 people unnecessarily how you are storing your bitcoin – or indeed
-that you have any in the first place.  People have had seeds stolen
+that you have any in the first place. People have had seeds stolen
 mysteriously, and even been targeted for physical attacks and
-kidnapping.  While it’s possible to use the strategies below to
+kidnapping. While it’s possible to use the strategies below to
 protect your bitcoin in these circumstances, it’s much better not
-to have to rely on them!  However it <i>is</i> worth considering who
+to have to rely on them! However it <i>is</i> worth considering who
 in your family or whatever needs to know how to access your bitcoin
 if something happened to you.</p>
 <h2 class="western">Simple paper storage</h2>
 <p class="western">The most basic level of security is to copy down
-your seed words on a bit of paper, and put it somewhere safe.  Use
-pen that won’t run.  Maybe put it in a polythene sleeve or bag.</p>
+your seed words on a bit of paper, and put it somewhere safe. Use pen
+that won’t run. Maybe put it in a polythene sleeve or bag.</p>
 <h2 class="western">Additional copies</h2>
 <p class="western">An obvious way to mitigate the risk of loss is to
-make multiple copies of your seed, kept in different locations. 
+make multiple copies of your seed, kept in different locations.
 However this will likely increase the risk of theft - so you'd want
 each location to be very secure.</p>
 <h2 class="western">Multiple wallets</h2>
 <p class="western">One way to mitigate lots of risks is to put your
 eggs in more than one basket and simply use multiple wallets –
 ideally using somewhat different approaches, or storing things in
-different places.  This means that if something bad happens, or you
+different places. This means that if something bad happens, or you
 have a brain fart and screw something up, the amount of damage you
 can do is limited to the fraction of funds you have in the wallet(s)
 affected.</p>
 <h2 class="western">Durable storage media</h2>
 <p class="western">Paper is obviously susceptible to fire and flood,
 so some people like to record their seed words on something more
-durable, particularly metal.  Home-made solutions are obviously
+durable, particularly metal. Home-made solutions are obviously
 possible involving steel plates and punches, but kits specifically
 designed for the purpose are also available.</p>
 <p class="western">Note that the list of words from which your seed
@@ -274,49 +277,49 @@ word, which can reduce the difficulty of this approach a lot.</p>
 <h2 class="western">Splitting seeds</h2>
 <p class="western">Storing a set of seed words always carries the
 risk that someone could find it and empty the wallet they are
-associated with.  One possible approach to reducing this threat is to
+associated with. One possible approach to reducing this threat is to
 split seeds up into multiple parts for storage in different
 locations.</p>
 <p class="western">If doing this it’s important to be aware that if
 an attacker knows, say, 8 of the 12 words they will probably be able
 to “brute force” the other 4 – just by trying all possible
-combinations of words.  It’s possible they could do this for 6
-missing words.  It’s pretty unlikely, in my view they could do it
-with 8.  Problems of brute-forcing partial seeds are less severe if
+combinations of words. It’s possible they could do this for 6
+missing words. It’s pretty unlikely, in my view they could do it
+with 8. Problems of brute-forcing partial seeds are less severe if
 you are using a wallet with a 24 word seed.</p>
 <p class="western">Also you need to be sure that you don’t just
 create additional vulnerabilities – for example if you just split
 your seed into 3 parts, loss of any part will mean you lose access to
-the wallet (unless you can brute force it!).  Overlapping partial
+the wallet (unless you can brute force it!). Overlapping partial
 seeds are another possibility.</p>
 <p class="western">If using any of these approaches you need to be
 sure you can remember what you’ve done, what’s stored where etc.</p>
 <h2 class="western">Added passphrase</h2>
 <p class="western">This is probably the most effective additional
 security you can use – and recommended for large amounts of
-bitcoin.  However it entails an additional layer of complexity, and
-is not to be taken lightly.</p>
+bitcoin. However it entails an additional layer of complexity, and is
+not to be taken lightly.</p>
 <p class="western">The system for generating a wallet based on 12 or
 24 seed words described above also permits you to add further
 characters of your own choice – up to 50 in most wallet
-applications.  If you do this, the wallet created will be entirely
+applications. If you do this, the wallet created will be entirely
 different, with a completely separate set of addresses and private
-keys.  
+keys. 
 </p>
 <p class="western">An additional “passphrase” such as this is not
-usually stored on your wallet application or device.  You will
-usually enter it yourself each time you open the wallet.  A hardware
-wallet with a given seed can therefore be used as the base for an
-unlimited number of different wallets – each defined by a different
-passphrase.  
+usually stored on your wallet application or device. You will usually
+enter it yourself each time you open the wallet. A hardware wallet
+with a given seed can therefore be used as the base for an unlimited
+number of different wallets – each defined by a different
+passphrase. 
 </p>
 <p class="western">The big advantage of this approach is that, to
 steal your bitcoin, any attacker needs your seed words AND your
-passphrase.  Either alone is useless – as long as the passphrase is
+passphrase. Either alone is useless – as long as the passphrase is
 long enough that it cannot be guessed.</p>
 <p class="western">It therefore allows strategies where you can split
 the information required to recover your wallet – so that an
-attacker who finds one part cannot do anything.  It also means that
+attacker who finds one part cannot do anything. It also means that
 even if an attacker was able to extract the seed words from your
 device somehow (very unlikely but not inconceivable), they would not
 be able to access any wallets protected by a passphrase.</p>
@@ -325,17 +328,17 @@ exactly what your strategy is.</p>
 <p class="western">For example in a high security strategy the
 passphrase should be kept separate from the seed words - but then you
 need to be certain that you will be able to recover them both
-yourself.  
+yourself. 
 </p>
 <p class="western">Depending on your strategy you probably also need
 to be confident that the passphrase is genuinely random, and long
-enough that an attacker could not “brute force” guess it.  
+enough that an attacker could not “brute force” guess it. 
 </p>
 <p class="western">There’s a good explanation of passphrases (as
 used on the Trezor) <a href="https://blog.trezor.io/passphrase-the-ultimate-protection-for-your-accounts-3a311990925b">here</a>.</p>
 <h2 class="western">Memorization</h2>
 <p class="western">The “mnemonic” seed word system was partly
-designed to enable relatively easy memorization of seeds.  It’s
+designed to enable relatively easy memorization of seeds. It’s
 probably not a good idea to rely on this alone, but it can be a handy
 back-up, as well as allowing you to potentially cross hostile borders
 carrying $billions just in your head.</p>
@@ -344,19 +347,19 @@ vulnerable to the classic <a href="https://xkcd.com/538/">$5 wrench
 attack.</a></p>
 <h2 class="western">Safety deposit boxes</h2>
 <p class="western">These can be a good option for storing copies of
-seeds.  Used in combination with passphrases they can result in very
-secure strategies.  
+seeds. Used in combination with passphrases they can result in very
+secure strategies. 
 </p>
 <p class="western">Safety deposit facilities will usually only allow
 registered users to enter alone – so they give good protection
-against physical coercion.  They also can be useful for inheritance
+against physical coercion. They also can be useful for inheritance
 planning as they will have well-defined procedures for giving access
 to executors of your estate, usually on production of a death
 certificate or similar proof.</p>
 <h2 class="western">Multi-signature wallets</h2>
 <p class="western">Bitcoin allows you to create wallets where
 transactions require combinations of independent signatures to be
-valid.  For example you can specify, in effect 3 different seeds, of
+valid. For example you can specify, in effect 3 different seeds, of
 which 2 signatures are required.</p>
 <p class="western">This functionality is still for advanced users –
 and while it’s potentially extremely secure, if you are competent
@@ -364,16 +367,16 @@ to use it then you probably aren’t using this guide.</p>
 <h2 class="western">Wiping your hardware device</h2>
 <p class="western">Every now and then an esoteric vulnerability is
 found in a hardware wallet (<a href="http://johoe.mooo.com/trezor-power-analysis/">example</a>).
- They usually involve extracting the seed stored in the device.  
+They usually involve extracting the seed stored in the device. 
 </p>
 <p class="western">As described above, such attacks can usually be
-prevented by adding a passphrase to your seed words.  But a simpler
+prevented by adding a passphrase to your seed words. But a simpler
 solution if you do not regularly use your device for transactions
 would simply be to wipe it – and rely on restoring it from seed
 when you need it.</p>
 <p class="western">Obviously this means you need to be absolutely
-confident of your seed storage.  Arguably you should be anyway, but
-you can look at the device as a backup of the seed words themselves. 
+confident of your seed storage. Arguably you should be anyway, but
+you can look at the device as a backup of the seed words themselves.
 So an alternative approach might simply be to hide it very well.</p>
 <p class="western"><br/>
 <br/>
@@ -384,7 +387,7 @@ So an alternative approach might simply be to hide it very well.</p>
 
 </p>
 <p class="western"><font size="2" style="font-size: 9pt"><i>Donations:
- bc1qs7rq26rp3zwc63nvq9jctr8eqh73a3jt6vwadp</i></font></p>
+bc1qs7rq26rp3zwc63nvq9jctr8eqh73a3jt6vwadp</i></font></p>
 <p class="western"><br/>
 <br/>
 
