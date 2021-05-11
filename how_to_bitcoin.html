@@ -5,7 +5,7 @@
 	<title></title>
 	<meta name="generator" content="LibreOffice 7.1.3.2 (Linux)"/>
 	<meta name="created" content="2020-11-17T11:28:07.259191592"/>
-	<meta name="changed" content="2021-05-11T13:37:48.277357936"/>
+	<meta name="changed" content="2021-05-11T13:46:41.156083379"/>
 	<style type="text/css">
 		@page { margin: 2cm }
 		h1 { margin-top: 0.42cm; margin-bottom: 0.61cm; background: transparent }
@@ -275,7 +275,15 @@ like bitcoin addresses – and swap them. Bad browser plugins can
 also do this kind of thing in a way that is harder to detect.</font></p>
 <p class="western"><font face="DejaVu Sans, sans-serif">So it’s
 obviously important to review the final transaction before sending,
-to make sure nothing like this has happened.</font></p>
+to make sure nothing like this has happened.  If you are feeling
+paranoid (which is good) then check the whole thing.  But it’s
+worth knowing that addresses are created by an essentially random
+process and cannot be made to order.  (Eg it is very hard to make
+“vanity addresses” with even a few digits that you want: see
+<a href="https://github.com/bitcoinbook/bitcoinbook/blob/ab539e614a8497099458ddc6d29275fe0f74db78/ch04.asciidoc#vanity-addresses">this</a>).
+ That means a fake address is almost certainly going to be completely
+different to the real one, so you may be happy only checking a
+section or two of the address.</font></p>
 <p class="western"><font face="DejaVu Sans, sans-serif">Hardware
 wallets will usually have a nice feature to make this kind of attack
 pretty much impossible: they will actually show you the destination
